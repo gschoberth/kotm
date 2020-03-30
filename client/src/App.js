@@ -1,8 +1,8 @@
 import React from "react";
-import "./sass/style.scss";
+import Chessboard from "chessboardjsx";
 
 const App = () => {
-  return <h1>This is a</h1>;
+  return <Chessboard position="start" />;
 };
 
 export default App;
